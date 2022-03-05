@@ -1,2 +1,2 @@
-# something
-Finalité du cours système d'information par les étudiants
+# 🥰 Something
+Finalité du cours système d'information par les étudiants.
