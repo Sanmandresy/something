@@ -1,0 +1,16 @@
+[
+	{
+		"id_student": "STDXXXX",
+		"nom": "Rakotondratompo",
+		"prenoms": "Bako Harry",
+		"url": "https://somemain.herokuapp.com/",
+		"avatar": "https://avatars.githubusercontent.com/u/67697046"
+	},
+	{
+		"id_student": "STD21007",
+		"nom": "Rafalimanana",
+		"prenoms": "Rojotiana Nomena",
+		"url": "https://some-main.herokuapp.com/",
+		"avatar": "Lien vers photo de profil à afficher"
+	}
+]
