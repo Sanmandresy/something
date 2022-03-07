@@ -1,5 +1,5 @@
 # 🥰 Something developpement
-Finalité du cours système d'information par les étudiants. L'application est disponible  [içi](https://somemain.herokuapp.com/)
+Finalité du cours système d'information par les étudiants. L'application en mode dev est disponible  [içi](https://somethingdev.herokuapp.com/)
 
 
 
