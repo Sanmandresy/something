@@ -12,5 +12,12 @@
 		"prenoms": "Bako Harry",
 		"url": "https://somemain.herokuapp.com/",
 		"avatar": "https://avatars.githubusercontent.com/u/67697046?v=4"
+	},
+	{
+		"id_student" : "STD21018",
+		"nom" : "RANAIVOSON",
+		"prenom": "Onitsiky",
+		"url" : "https://hei-sys1.herokuapp.com/",
+		"avatar":"https://avatars.githubusercontent.com/u/98632897?v=4"
 	}
 ]
