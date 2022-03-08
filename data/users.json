@@ -7,6 +7,13 @@
 		"avatar": "https://avatars.githubusercontent.com/u/72041096?s=400&u=d79364ba0cc508ff69a511cf08e9d42d8655f72d&v=4"
 	},
 	{
+                "id_student": "STD21034",
+                "nom": "VAGNO",
+                "prenoms": "Ny Hasina Marolahy",
+                "url": "https://project-sys.herokuapp.com/",
+                "avatar": "https://avatars.githubusercontent.com/u/98644255?s=400&u=6eb7eccf9bb7b2e0b60f15a796e399672e4a9ba7&v=4"
+        },
+	{
 		"id_student": "STD21028",
 		"nom": "Ratsimba",
 		"prenoms": "Dinasoa",
