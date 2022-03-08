@@ -9,14 +9,13 @@
     - Vérifiez votre mail
     
   
-## 2-Se connecter à son compte Red hat
+## 2- Se connecter à son compte Red hat
  ![open1](https://user-images.githubusercontent.com/72041096/157201004-31addcd3-4adf-439f-a01a-19723ef30ee7.JPG)
 
-# Etapes pour le déploiement sur à l'aide de github
 
 
 
-## Création de l'application
+## 3- Création de l'application
     Sur le site de Openshift https://console-openshift-console.apps.sandbox-m2.ll9k.p1.openshiftapps.com/add
         - Selectionner le mode développer en haut à gauche 
         - Cliquer sur Add sur le coin gauche
@@ -37,7 +36,7 @@
 
         
 
-## Déploiement 
+## 4- Déploiement 
     -Se rendre dans Topology
     -Séléctionner le projet
     -Aller dans Route et cliquer le lien pour voir notre application
