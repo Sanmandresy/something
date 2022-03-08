@@ -1,4 +1,11 @@
-[
+[	
+	{
+		"id_student": "STD21028",
+		"nom": "Ratsimba",
+		"prenoms": "Dinasoa",
+		"url": "https://hei-heroku-2022.herokuapp.com/",
+		"avatar": ""
+	},
 	{
 		"id_student": "STD21021",
 		"nom": "Randriamanjato",
@@ -12,5 +19,12 @@
 		"prenoms": "Bako Harry",
 		"url": "https://somemain.herokuapp.com/",
 		"avatar": "https://avatars.githubusercontent.com/u/67697046?v=4"
+	},
+	{
+		"id_student" : "STD21018",
+		"nom" : "Ranaivoson",
+		"prenom": "Onitsiky",
+		"url" : "https://hei-sys1.herokuapp.com/",
+		"avatar":"https://avatars.githubusercontent.com/u/98632897?v=4"
 	}
 ]
