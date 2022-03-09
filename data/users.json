@@ -7,6 +7,13 @@
 		"avatar": "https://avatars.githubusercontent.com/u/72041096?s=400&u=d79364ba0cc508ff69a511cf08e9d42d8655f72d&v=4"
 	},
 	{
+		"id_student": "STD21044",
+		"nom": "NY TINA ANDRIANTSOA",
+		"prenoms": "Fifaliana Loïca",
+		"url": "in progress",
+		"avatar": "https://avatars.githubusercontent.com/NiceGuyMe"
+	},
+	{
 		"id_student": "STD21034",
 		"nom": "VAGNO",
 		"prenoms": "Ny Hasina Marolahy",
@@ -70,6 +77,7 @@
 		"avatar": "https://avatars.githubusercontent.com/u/98639271?s=400&u=7ce4082b84b5d9d783090ee651b7d873e281437b&v=4"
 	},
 	{
+
 		"id_student": "STD21007",
 		"nom": "Rafalimanana",
 		"prenoms": "Rojotiana Nomena",
@@ -89,7 +97,6 @@
 		"prenoms": "Ramiandrisoa Vohizy",
 		"url": "https://web-hei.herokuapp.com/",
 		"avatar": "https://avatars.githubusercontent.com/u/99481011?s=400&u=52d03cb670cb4e7bffc2625674fc161650869da6&v=4"
-
 	},
 	{
 		"id_student": "STD21033",
@@ -98,4 +105,5 @@
 		"url": "https://myheisite-inprogress.herokuapp.com/",
 		"avatar": "https://avatars.githubusercontent.com/u/97837302"
 	}
+
 ]
