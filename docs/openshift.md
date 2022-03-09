@@ -20,9 +20,9 @@
         - Selectionner le mode développer en haut à gauche 
         - Cliquer sur Add sur le coin gauche
         - Après selectionner Import from git
-    ![open2](https://user-images.githubusercontent.com/72041096/157202556-21059c88-98dd-4ea9-8894-55609a74590a.JPG)
+   ![open2](https://user-images.githubusercontent.com/72041096/157202556-21059c88-98dd-4ea9-8894-55609a74590a.JPG)
     Si ceci est votre première connection, alors la connexion est sans doute évouer à l'échec : 
-   ![open2](https://raw.githubusercontent.com/Sarobidy-23/Web/master/erreur%20devsandbox.)
+   ![open3](https://raw.githubusercontent.com/Sarobidy-23/Web/master/erreur%20devsandbox.png)
    
     Pour resoudre cela :
         - Aller sur le site : https://developers.redhat.com/developer-sandbox/get-started
@@ -33,7 +33,7 @@
         - Après selectionner Import from git
    ![open3](https://raw.githubusercontent.com/Sarobidy-23/Web/master/debuter%20devsandbox.png)
    ![open4](https://raw.githubusercontent.com/Sarobidy-23/Web/master/verifier%20sandbox.png)
-   ![open2](https://raw.githubusercontent.com/Sarobidy-23/Web/master/erreur%20devsandbox.)
+
 
         - Copier le git repository url
         - Nommez votre application
