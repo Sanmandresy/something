@@ -10,5 +10,7 @@ A completer au fur et à mesure de l'avancement du projet.
 ```sh
 $ 
 ```
+## Contributors
 
-**Was Here ...**
+<!-- readme: contributors -start -->
+<!-- readme: contributors -end -->
