@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "Tsirimaholy",
+      "name": "P3RM1_D3N1ED",
+      "avatar_url": "https://avatars.githubusercontent.com/u/72337259?v=4",
+      "profile": "https://github.com/Tsirimaholy",
+      "contributions": [
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "something",
+  "projectOwner": "Tsirimaholy",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
