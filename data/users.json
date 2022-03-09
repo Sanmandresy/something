@@ -62,7 +62,7 @@
 		"url" : "https://site-23.herokuapp.com/",
 		"avatar":"https://avatars.githubusercontent.com/u/100074450?s=400&u=961394ed94789bbe8565dd037e8e3c4e7355afa3&v=4"
 	},
-	
+	{
 		"id_student": "STD21032",
 		"nom": "ROBERTO",
 		"prenoms": "Niaina Franco",
@@ -75,5 +75,12 @@
 		"prenoms": "Rojotiana Nomena",
 		"url": "https://pendu-app.herokuapp.com/",
 		"avatar": "https://avatars.githubusercontent.com/u/89130212?v=4"
+	},
+	{
+		"id_student": "STD21014",
+		"nom": "RAKOTONIRINA",
+		"prenoms": "Njaina Sandratra",
+		"url": "https://project-sys1.herokuapp.com/",
+		"avatar": "https://avatars.githubusercontent.com/njaina"
 	}
 ]
