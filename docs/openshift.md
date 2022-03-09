@@ -5,7 +5,7 @@
 ## 1-Créer un compte red hat
     
     - Allez sur le site Openshift https://cloud.redhat.com
-    - Entrez des données valides 
+    - Clicker sur "create an account" et suivre le protocole (voulez vous un compte personnel ou pour l'entreprise,votre nom, ...) 
     - Vérifiez votre mail
     
   
@@ -20,8 +20,20 @@
         - Selectionner le mode développer en haut à gauche 
         - Cliquer sur Add sur le coin gauche
         - Après selectionner Import from git
- ![open2](https://user-images.githubusercontent.com/72041096/157202556-21059c88-98dd-4ea9-8894-55609a74590a.JPG)
-
+    ![open2](https://user-images.githubusercontent.com/72041096/157202556-21059c88-98dd-4ea9-8894-55609a74590a.JPG)
+    Si ceci est votre première connection, alors la connexion est sans doute évouer à l'échec : 
+   ![open2](https://raw.githubusercontent.com/Sarobidy-23/Web/master/erreur%20devsandbox.)
+   
+    Pour resoudre cela :
+        - Aller sur le site : https://developers.redhat.com/developer-sandbox/get-started
+        - Entrer votre numero de telephone
+        - Tapez code qui a été envoyé sur votre téléphone via le numero que vous avez composé
+        - Rééssayer de se connecter sur le site : https://console-openshift-console.apps.sandbox-m2.ll9k.p1.openshiftapps.com/add
+        - Cliquer sur Add sur le coin gauche
+        - Après selectionner Import from git
+   ![open3](https://raw.githubusercontent.com/Sarobidy-23/Web/master/debuter%20devsandbox.png)
+   ![open4](https://raw.githubusercontent.com/Sarobidy-23/Web/master/verifier%20sandbox.png)
+   ![open2](https://raw.githubusercontent.com/Sarobidy-23/Web/master/erreur%20devsandbox.)
 
         - Copier le git repository url
         - Nommez votre application
@@ -41,7 +53,7 @@
     -Séléctionner le projet
     -Aller dans Route et cliquer le lien pour voir notre application
   ![open7](https://user-images.githubusercontent.com/72041096/157205445-1e4a817d-e8fa-4993-801b-29b0bdcc34f1.JPG)
-![open8](https://user-images.githubusercontent.com/72041096/157205452-fd996fbe-a2d3-4f9e-924c-b172d9e05d8e.JPG)
+  ![open8](https://user-images.githubusercontent.com/72041096/157205452-fd996fbe-a2d3-4f9e-924c-b172d9e05d8e.JPG)
 
 
 
