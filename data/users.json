@@ -82,5 +82,19 @@
 		"prenoms": "Tsirimaholy Harison",
 		"url": "https://github.com/Tsirimaholy/something/deployments/activity_log?environment=hei-owasp",
 		"avatar":"https://avatars.githubusercontent.com/u/72337259?s=40&v=4"
+  },
+  {
+		"id_student": "STD21014",
+		"nom": "RAKOTONIRINA",
+		"prenoms": "Njaina Sandratra",
+		"url": "https://project-sys1.herokuapp.com/",
+		"avatar": "https://avatars.githubusercontent.com/njaina"
+  },
+  {
+		"id_student": "STD21005",
+		"nom": "ANDRIATSIMIADY",
+		"prenoms": "Ramiandrisoa Vohizy",
+		"url": "https://web-hei.herokuapp.com/",
+		"avatar": "https://avatars.githubusercontent.com/u/99481011?s=400&u=52d03cb670cb4e7bffc2625674fc161650869da6&v=4"
 	}
 ]
