@@ -21,7 +21,9 @@
         - Cliquer sur Add sur le coin gauche
         - Après selectionner Import from git
    ![open2](https://user-images.githubusercontent.com/72041096/157202556-21059c88-98dd-4ea9-8894-55609a74590a.JPG)
-    Si ceci est votre première connection, alors la connexion est sans doute évouer à l'échec : 
+   
+    Si ceci est votre première connexion, alors la connexion est sans doute évouer à l'échec : 
+    
    ![open3](https://raw.githubusercontent.com/Sarobidy-23/Web/master/erreur%20devsandbox.png)
    
     Pour resoudre cela :
