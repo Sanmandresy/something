@@ -8,27 +8,28 @@ Apache avec Arch linux. Avant de commencer, il nous faut connaître les notions 
 Un __virtual__  __host__ (hôte virtuel) héberge plusieurs sites en même temps dans un seul serveur donc à partir d’ __une seule adresse IP__.  Autrement dit, si nous voulons héberger plusieurs sites dans un serveur, il nous faut créer un virtual host. Donc si vous voulez nous pouvons mettre comme titre « Créer un virtual host » 😉.
 #### Mode root
 Afin de réaliser toutes les actions qui vont suivre il faut savoir comment passer en mode root.
-Avec _sudo_ _su_ cela devrait suffire. Mais si vous rencontrez des problèmes, veuillez consultez le lien ci-après https://www.youtube.com/watch?v=EEIdjlq_AIE 
+Ou du moins avoir accès au privilèges root avec _sudo_ .
+Veuillez consultez le lien ci-après https://www.youtube.com/watch?v=EEIdjlq_AIE . 
 
 #### Installation de Apache
-Il faudrait aussi que vous ayez au moins installer apache.  Si vous ne l’avez pas encore fait, il suffit d’écrire :
+Il faudrait aussi que vous ayez au moins installé apache.  Si vous ne l’avez pas encore fait, il suffit d’écrire :
 ```sh
  $  sudo pacman -S apache
 ``` 
- 
+D'accepter avec Y et voilà. Si cela ne suffit pas, veuillez visiter la page ayant le lien ci-après https://wiki.archlinux.org/title/Apache_HTTP_Server ou regarder la vidéo suivante https://youtu.be/ImwZFMPbeP0 .
 
 ### Contexte 
  Nous allons créer un virtual host qui va héberger des sites dans deux domaines différents, domaine1 et domaine2. Le nom des sites seront évidemment index.hmtl.
 
 ### Etape 1 : Création d’une directory
-Bon voilà, vous êtes en mode root ? 😄 Nous allons commencer par créer un dossier avec les noms de domaines dans le répertoire _/srv/http/_
+Nous allons commencer par créer un dossier avec les noms de domaines dans le répertoire _/srv/http/_
 ```sh
 $ sudo mkdir /srv/http/domaine1.com
 $ sudo mkdir /srv/http/domaine2.com
 ``` 
 
 
-Ainsi chaque domaine correspondra à un dossier. Et quand nous aurons fini de créer le virtualhost, nous pourrons juste taper domaine1.com ou domaine2.com et le site web s’affichera.
+Ainsi chaque domaine correspondra à un dossier. _Et quand nous aurons fini de créer le virtualhost_, nous pourrons juste taper domaine1.com ou domaine2.com et le site web s’affichera.
 
 ### Etape 2 : Création de la page html
 Nous allons donc créer le fichier html dans chacun des domaines.
@@ -50,27 +51,20 @@ Pour le deuxième choix nous ferons juste :
 ```sh
 $ sudo cp NotreFichierACopier.html /srv/http/domaine1.com/index.html
 ``` 
-
+Et de même avec domaine2.
 ### Etape 3 : Configuration des virtual host
-Bon, vous y êtes ? 😄 Nous allons passez à l’étape ultime maintenant. 😀
-- Nous allons maintenant dans le répertoire etc. Nous nous dirigerons dans _/etc/apache2/sites-available/_ .Pour cela il nous faut taper les commandes ci-dessous :
+ Nous allons passez à l’étape ultime maintenant. 😀
+Il nous faut aller vers la configuration apache pour pouvoir faire la configuration des virtualhosts.
 ```sh
-$ cd etc
-$ cd apache2
-$ cd sites-available
+$ sudo nano /etc/httpd/conf/httpd.conf
 ``` 
 
-Si nous voulons voir ce qu’il y a dedans avec _ls_ nous y verrons deux fichiers conf qui sont mises dans ce dossier par défaut (000-default.conf et default-ssl.conf).
-- Ensuite il faut copier le contenu de _000-default.conf _ dans un nouveau fichier, par exemple domaine1.conf. Comme écrit quelques lignes plus tôt, nous écrirons :
+Ensuite nous allons modifier une partie du contenu de _httpd-vhosts.conf_ :
 ```sh
-$ sudo cp etc/apache2/sites-available/000-default.conf  etc/apache2/sites-available/domaine1.conf
-``` 
-Ensuite nous allons modifier une partie du contenu de _domaine1.conf_ :
-```sh
-$ sudo nano etc/apache2/sites-available/domaine1.conf
+$ sudo nano /etc/httpd/conf/extra/httpd-vhosts.conf
 ``` 
 
-Il faut ensuite modifier son contenu suivant le modèle suivant :
+Il faut ensuite modifier son contenu comme-suit :
 ```sh
  <VirtualHost *:80>
  ServerAdmin webmaster@domaine1.com
@@ -80,7 +74,17 @@ ServerName domaine1.com
  	ErrorLog "/var/log/httpd/domaine1.com-error_log" 
 CustomLog "/var/log/httpd/domaine1.com-access_log" common 
 </VirtualHost> 
-<Directory "/home/user/http/domaine1.dom">
+<VirtualHost *:80>
+ ServerAdmin webmaster@domaine2.com
+DocumentRoot "/srv/http/domaine2.com" 
+ServerName domaine2.com
+ ServerAlias www.domaine2.com
+ 	ErrorLog "/var/log/httpd/domaine2.com-error_log" 
+CustomLog "/var/log/httpd/domaine2.com-access_log" common 
+</VirtualHost> 
+<Directory "/home/user/http/domaine1.com">
+        Require all granted
+ </Directory><Directory "/home/user/http/domaine2.com">
         Require all granted
  </Directory>
 ``` 
@@ -91,7 +95,7 @@ CustomLog "/var/log/httpd/domaine1.com-access_log" common
 - __ErrorLog__ c’est la directive relative au log d’erreur au hôte virtuel
 - __CustomLog___  c’est la directive relative au log d’accès au hôte virtuel (Dans le domaine informatique, le terme log désigne un type de fichier, ou une entité équivalente, dont la mission principale consiste à stocker un historique des événements).
 - __Require all granted__ signifie que toutes les adresse IP qui demanderont au serveur auront accès au site web. 
-N’oublions pas d’enregistrer et de sortir de l’éditeur de texte Nano (ctrl+X). Et de faire de même avec domaine2.com.
+N’oublions pas d’enregistrer et de sortir de l’éditeur de texte Nano (ctrl+X). 
 Puis nous avons à tester si les modifications fonctionnent avec 
 ```sh
 $ apachetcl configtest
@@ -112,7 +116,4 @@ Ensuite nous allons taper la commande suivante afin de littéralement redémarre
 
 ### Etape 5 : Admirer le résultat 😊
 Il ne nous reste plus qu’à écrire le nom de notre domaine par exemple domaine1.com dans la barre de navigation et voilà !!! 😊
-
-
-
 
