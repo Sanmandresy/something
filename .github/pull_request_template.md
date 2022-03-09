@@ -1,30 +1,21 @@
-# Description
-You can remove all unecessary step
-Please include a summary of the change and which issue is fixed. Please also include relevant motivation and context. List any dependencies that are required for this change.
+<!-- free for modification -->
+<!-- you can delete any unecessary step from this template -->
+<!-- Nevertheless reffer to the Markdown guide (markdownguide.org) to avoid bad PRs 😉 -->
 
-Fixes # (issue)
+# Modification made ✏️ 
 
-## Type of change
+Fixes #(issue id)
 
-Please delete options that are not relevant.
+# How? 🤔
+- some step
+- some step
+<!-- simple descripion  changes made -->
+# why?
 
-- [ ] Bug fix (non-breaking change which fixes an issue)
-- [ ] New feature (non-breaking change which adds functionality)
-- [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
-- [ ] This change requires a documentation update
 
-# How Has This Been Tested?
+<!-- why these changes was necessary-->
 
-- [ ] Test A
-- [ ] Test B
+# Screenshot 📷
 
-# Checklist:
-
-- [ ] My code follows issues spec 
-- [ ] I have performed a self-review of my own code
-- [ ] I have commented my code, particularly in hard-to-understand areas
-- [ ] My changes generate no new warnings
-- [ ] I have added tests that prove my fix is effective or that my feature works
-
-# Screenshot
-![Alterntive text](url)
+<!-- drag and drop your images file here or use this 👇 -->
+![alternative_text](urlToTheImage)
