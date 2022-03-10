@@ -1,4 +1,4 @@
-[	
+[
 	{
 		"id_student": "STD21004",
 		"nom": "ANDRIAMILANTO",
@@ -49,25 +49,25 @@
 		"avatar": "https://avatars.githubusercontent.com/u/67697046?v=4"
 	},
 	{
-		"id_student" : "STD21018",
-		"nom" : "Ranaivoson",
+		"id_student": "STD21018",
+		"nom": "Ranaivoson",
 		"prenom": "Onitsiky",
-		"url" : "https://hei-sys1.herokuapp.com/",
-		"avatar":"https://avatars.githubusercontent.com/u/98632897?v=4"
+		"url": "https://hei-sys1.herokuapp.com/",
+		"avatar": "https://avatars.githubusercontent.com/u/98632897?v=4"
 	},
 	{
-		"id_student" : "STD21029",
-		"nom" : "Ratsimbazafy",
+		"id_student": "STD21029",
+		"nom": "Ratsimbazafy",
 		"prenom": "Anjaraniaina",
-		"url" : "https://my-hei-website.herokuapp.com/",
-		"avatar":"https://avatars.githubusercontent.com/u/98638459?v=4"
+		"url": "https://my-hei-website.herokuapp.com/",
+		"avatar": "https://avatars.githubusercontent.com/u/98638459?v=4"
 	},
 	{
-		"id_student" : "STD21011",
-		"nom" : "Rakotomahefa",
+		"id_student": "STD21011",
+		"nom": "Rakotomahefa",
 		"prenom": "Fanomezana Sarobidy",
-		"url" : "https://site-23.herokuapp.com/",
-		"avatar":"https://avatars.githubusercontent.com/u/100074450?s=400&u=961394ed94789bbe8565dd037e8e3c4e7355afa3&v=4"
+		"url": "https://site-23.herokuapp.com/",
+		"avatar": "https://avatars.githubusercontent.com/u/100074450?s=400&u=961394ed94789bbe8565dd037e8e3c4e7355afa3&v=4"
 	},
 	{
 		"id_student": "STD21032",
@@ -85,6 +85,13 @@
 		"avatar": "https://avatars.githubusercontent.com/u/89130212?v=4"
 	},
 	{
+		"id_student": "STD21030",
+		"nom": "Razanapanala",
+		"prenoms": "Tsirimaholy Harison",
+		"url": "https://github.com/Tsirimaholy/something/deployments/activity_log?environment=hei-owasp",
+		"avatar":"https://avatars.githubusercontent.com/u/72337259?s=40&v=4"
+  },
+  {
 		"id_student": "STD21014",
 		"nom": "RAKOTONIRINA",
 		"prenoms": "Njaina Sandratra",
@@ -112,5 +119,4 @@
 		"url": "https://heroku-app-game.herokuapp.com/",
 		"avatar": "https://avatars.githubusercontent.com/u/95756837?s=400&u=3fe0ea0bbeeb2f05dd198714dd823f0ea331c821&v=4"
 	}
-
 ]
