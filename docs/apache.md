@@ -140,7 +140,9 @@ Nous allons maintenant ajouter l’adresse IP du serveur et le nom de domaine qu
 Sur Windows le fichier se trouve dans `C:\Windows\System32\drivers\etc\hosts`.
 Pour y accéder, soit ouvrir un Powershell pour Administrateur, soit tout simplement ouvrir l'Invite Commande (CMD), puis faire un clique droit et choisir exécuter en tant qu'administrateur.
 Une fois la console ouverte, il faut saisir la commande suivante pour pouvoir modifier le fichier hosts
-	'''notepad drivers\etc\hosts
+	'''sh
+	notepad drivers\etc\hosts
+	'''
 > Répétez-les [etapes precedents](#unix-host) en modifiant le fichier `C:\Windows\System32\drivers\etc\hosts` avec le privilège  d’Administrateur
 >Maintenant, vous pouviez accéder le site juste en tapant ${USER}.site.local.
 
