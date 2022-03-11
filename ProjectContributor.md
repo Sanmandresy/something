@@ -18,8 +18,8 @@ git shortlog -sne --all
 ```sh
 git log --pretty="%an %ae%n%cn %ce" | sort | uniq
 ```
-%an indique le nom de l'auteur
-%ae indique l'email de l'auteur
-%n indique la nouvelle ligne
-%cn indique le nom du committer
-%ce indique e-mail du committer
+- %an indique le nom de l'auteur
+- %ae indique l'email de l'auteur
+- %n indique la nouvelle ligne
+- %cn indique le nom du committer
+- %ce indique e-mail du committer
