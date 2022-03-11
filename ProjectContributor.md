@@ -1,20 +1,20 @@
-#Lister les contributeurs d'un projet
+# Lister les contributeurs d'un projet
 
 
-##D'abord il faut se mettre dans la branche en utilisant la commande
+## D'abord il faut se mettre dans la branche en utilisant la commande
 ```sh
 git checkout ${BRANCH}
 ```
-##Afficher tous les utilisateurs et e-mails, ainsi que le nombre de validations
+## Afficher tous les utilisateurs et e-mails, ainsi que le nombre de validations
 ```sh
 git shortlog --summary --numbered --email
 ```
-##Afficher tous les utilisateurs de tous les branches 
+## Afficher tous les utilisateurs de tous les branches 
 ```sh
 git shortlog -sne --all
 ```
 
-##Si vous voulez être plus précis dans la liste (trouver une liste de committer unique et d'auteur), vous pouvez utiliser git log:
+## Si vous voulez être plus précis dans la liste (trouver une liste de committer unique et d'auteur), vous pouvez utiliser git log:
 ```sh
 git log --pretty="%an %ae%n%cn %ce" | sort | uniq
 ```
