@@ -1,0 +1,6 @@
+Apres avoir lancer le fichier contributor.js, voici la sortie attendu:
+
+| Nom | GitHub | Réseaux sociaux | 
+| :------------------ | :----------------------------------------- | :-------------------------------------------------------------- --- | 
+| **Vincent Weevers** | [**@vweevers**](https://github.com/vweevers) | [**@vweevers@twitter**](https://twitter.com/vweevers) | 
+| **Titus Vermifuge** | [**@wooorm**](https://github.com/wooorm) | [**@wooorm@twitter**](https://twitter.com/wooorm) |
