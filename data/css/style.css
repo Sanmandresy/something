@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#cardColumns a{ 
+    text-decoration: none;
+    color: grey;
+}
+
+#cardColumns .card-body{
+    height: 50vh;
+}
