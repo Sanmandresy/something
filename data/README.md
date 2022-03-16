@@ -55,8 +55,8 @@ Allez dans le repertoire :
 ```sh
 C:\Windows\System32\drivers\etc
 ```
-Dans le dossier etc , vous y trouverez un dossier "hosts" , 
-Sans rien supprimer , ajoutez ceci dans ce fichier 
+Dans le dossier etc , vous y trouverez un fichier "hosts" , 
+sans rien supprimer , ajoutez ceci dans ce fichier 
 
 ```sh
 
@@ -64,7 +64,7 @@ Sans rien supprimer , ajoutez ceci dans ce fichier
 
 ```
 
->Vous n'avez plus qu'à redémarrez le serveur et au lieu de localhost vous pourriez juste tapez comme base url :
+>Vous n'avez plus qu'à redémarrez le serveur et au lieu de localhost vous pourriez juste tapez comme base url : :rocket:
 
 ```sh
 web/data
